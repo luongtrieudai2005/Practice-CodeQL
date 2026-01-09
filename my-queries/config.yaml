@@ -1,0 +1,23 @@
+# Tên database (thư mục trong CodeQL/databases/)
+database_name: "libpng-c"
+
+# File query cần chạy (trong thư mục my-queries/)
+query_file: "find_functions.ql"
+
+# Tên file output
+output_files:
+  full_results: "results_full.csv"
+  final_results: "results.csv"
+
+# Các cột cần lấy từ kết quả CodeQL
+# Format: [column_index, header_name]
+result_columns:
+  - index: 0
+    name: "Name"
+  - index: 4
+    name: "Path"
+  - index: 3
+    name: "Start Line"
+
+# Số dòng hiển thị preview (không tính header)
+preview_lines: 10
