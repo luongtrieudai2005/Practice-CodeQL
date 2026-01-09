@@ -1,0 +1,90 @@
+[E 04:12:20 22880] CodeQL C/C++ Extractor 2.23.8
+[E 04:12:20 22880] Current directory: D:\PracticeInCodeQL\libpng\build
+[E 04:12:20 22880] Command: D:\Applications\codeql\cpp\tools\win64\extractor.exe --mimic "c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.43.34808\bin\hostx64\x64\cl.exe" @C:\Users\Admin\AppData\Local\Temp\MSBuildTemp\tmp1c21dcd3f6c8495692ff4b7ea6d33e89.rsp
+[E 04:12:20 22880] Expanded response file 'C:\Users\Admin\AppData\Local\Temp\MSBuildTemp\tmp1c21dcd3f6c8495692ff4b7ea6d33e89.rsp': /c /ID:\PracticeInCodeQL\libpng /ID:\PracticeInCodeQL\libpng\build /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /RTC1 /MDd /Fopngtest.dir\Debug\ /Fdpngtest.dir\Debug\vc143.pdb /external:W0 /TC /errorReport:queue /external:I D:/Applications/VCPKG/vcpkg/installed/x64-windows/include D:\PracticeInCodeQL\libpng\pngtest.c
+[E 04:12:20 22880] Checking whether C compilation already happened.
+[E 04:12:20 22880] Checking for tag c-compilation-happened
+[E 04:12:20 22880] Checking CODEQL_TRACER_DB_ID D4EB4A58000046AC_0000000000000001
+[E 04:12:20 22880] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:20 22880] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:20 22880] Unlocking DB
+[E 04:12:20 22880] Unlocked DB
+[E 04:12:20 22880] Looks like C compilation didn't already happen.
+[E 04:12:20 22880] Checking whether C compilation has been attempted.
+[E 04:12:20 22880] Checking for tag c-compilation-attempted
+[E 04:12:20 22880] Checking CODEQL_TRACER_DB_ID D4EB4A58000046AC_0000000000000001
+[E 04:12:20 22880] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:20 22880] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:20 22880] Unlocking DB
+[E 04:12:20 22880] Unlocked DB
+[E 04:12:20 22880] Marking C compilation as attempted.
+[E 04:12:20 22880] Setting tag c-compilation-attempted
+[E 04:12:20 22880] Starting from CODEQL_TRACER_DB_ID D4EB4A58000046AC_0000000000000001
+[E 04:12:20 22880] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:20 22880] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:20 22880] Set tag for D4EB4A58000046AC_0000000000000001
+[E 04:12:20 22880] Set tag for B75CC0A900001D7C_0000000000000001
+[E 04:12:20 22880] Set tag for A82CEB04000031E8_0000000000000001
+[E 04:12:20 22880] Set tag for 9BD1FB9C00001630_0000000000000001
+[E 04:12:20 22880] Set tag for 973A473300000D2C_0000000000000001
+[E 04:12:20 22880] Set tag for 76DF154C000066F0_0000000000000001
+[E 04:12:20 22880] Unlocking DB
+[E 04:12:20 22880] Unlocked DB
+[E 04:12:20 22880] Processed command line: D:\Applications\codeql\cpp\tools\win64\extractor.exe --trapfolder D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp --src_archive D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src --object_filename pngtest.dir\Debug\ --no_warnings_and_discretionary_errors --error_limit 1000 --disable_system_macros --variadic_macros --incognito --microsoft --c --microsoft_version 1943 --target win64 -D_MSC_FULL_VER=194334808 -D_MSC_BUILD=0 -D_M_AMD64=100 -D_M_X64=100 -D_WIN64 -D__MSVC_RUNTIME_CHECKS -D_DEBUG -D_MT -D_DLL -D_MBCS -DWIN32 -D_WINDOWS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_DEPRECATE -D_MBCS "-DCMAKE_INTDIR=\"Debug\"" -ID:/Applications/VCPKG/vcpkg/installed/x64-windows/include --import_dir pngtest.dir\Debug -ID:\PracticeInCodeQL\libpng -ID:\PracticeInCodeQL\libpng\build "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\atlmfc\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\cppwinrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um" -- D:\PracticeInCodeQL\libpng\pngtest.c
+[E 04:12:20 22880] CODEQL_EXTRACTOR_CPP_TRAP_CACHING is not set
+[E 04:12:20 22880] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_WRITE is not set
+[E 04:12:20 22880] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_DIR is not set
+[E 04:12:20 22880] Initialising TRAP cache at path: \\?\D:\PracticeInCodeQL\libpng\build\eb\5936\36a7173d82797c195e17a5565bdd
+[E 04:12:20 22880] Not using TRAP cache
+[E 04:12:20 22880] TRAP cache miss
+[E 04:12:20 22880] Starting compilation TRAP D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/compilations/53/25603736_0.trap.zst
+[E 04:12:20 22880] Archiving D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/PracticeInCodeQL/libpng/pngtest.c
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/stdio.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/vcruntime.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/sal.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/concurrencysal.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/vadefs.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wstdio.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_stdio_config.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/stdlib.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_malloc.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_search.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/stddef.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wstdlib.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/limits.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/string.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_memory.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_memcpy_s.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/errno.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/vcruntime_string.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wstring.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/Applications/VCPKG/vcpkg/installed/x64-windows/include/zlib.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/Applications/VCPKG/vcpkg/installed/x64-windows/include/zconf.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/sys/types.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/PracticeInCodeQL/libpng/png.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/PracticeInCodeQL/libpng/build/pnglibconf.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/PracticeInCodeQL/libpng/pngconf.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/setjmp.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/time.h
+[E 04:12:20 22880] Already archived D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wtime.h
+[E 04:12:20 22880] Warning[extractor-c++]: In emit_platform_diagnostic: Failed to rename diagnostic file from 'D' to 'D': unknown error
+[E 04:12:20 22880] Creating trap tarball D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/tarballs/D_/PracticeInCodeQL/libpng/pngtest.c.0f76e760_0.trap.tar.zst
+[E 04:12:20 22880] Emitting trap files for D:\PracticeInCodeQL\libpng\pngtest.c
+[E 04:12:20 22880] Opening existencedb in \\?\D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working\existencedb\db
+[E 04:12:21 22880] Wrote 2 files to D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/tarballs/D_/PracticeInCodeQL/libpng/pngtest.c.0f76e760_0.trap.tar.zst
+[E 04:12:21 22880] Finished compilation TRAP D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/compilations/53/25603736_0.trap.zst
+[E 04:12:21 22880] Marking C compilation as happened.
+[E 04:12:21 22880] Setting tag c-compilation-happened
+[E 04:12:21 22880] Starting from CODEQL_TRACER_DB_ID D4EB4A58000046AC_0000000000000001
+[E 04:12:21 22880] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:21 22880] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:12:21 22880] Set tag for D4EB4A58000046AC_0000000000000001
+[E 04:12:21 22880] Set tag for B75CC0A900001D7C_0000000000000001
+[E 04:12:21 22880] Set tag for A82CEB04000031E8_0000000000000001
+[E 04:12:21 22880] Set tag for 9BD1FB9C00001630_0000000000000001
+[E 04:12:21 22880] Set tag for 973A473300000D2C_0000000000000001
+[E 04:12:21 22880] Set tag for 76DF154C000066F0_0000000000000001
+[E 04:12:21 22880] Unlocking DB
+[E 04:12:21 22880] Unlocked DB
+[E 04:12:21 22880] Extractor exited successfully

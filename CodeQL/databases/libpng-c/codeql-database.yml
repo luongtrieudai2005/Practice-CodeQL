@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: D:\PracticeInCodeQL\libpng
+baselineLinesOfCode: 59123
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+creationMetadata:
+  sha: 0f07f70aa55e4771d00b0f8a238dca992fbb60e4
+  cliVersion: 2.23.8
+  creationTime: 2026-01-06T04:10:02.348368400Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

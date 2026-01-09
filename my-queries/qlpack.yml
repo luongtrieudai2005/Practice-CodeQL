@@ -1,0 +1,6 @@
+name: my-custom-queries
+version: 1.0.0
+description: Custom queries for libpng memory issues
+extractor: cpp
+dependencies:
+  codeql/cpp-all: "*"

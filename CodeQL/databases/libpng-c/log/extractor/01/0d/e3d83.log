@@ -1,0 +1,61 @@
+[E 04:10:04 19352] CodeQL C/C++ Extractor 2.23.8
+[E 04:10:04 19352] Current directory: D:\PracticeInCodeQL\libpng\build\CMakeFiles\4.2.1\CompilerIdC
+[E 04:10:04 19352] Command: D:\Applications\codeql\cpp\tools\win64\extractor.exe --mimic "c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.43.34808\bin\hostx64\x64\cl.exe" @C:\Users\Admin\AppData\Local\Temp\MSBuildTemp\tmp608de703ecb5435eb9bd55e9ae9e01dd.rsp
+[E 04:10:05 19352] Expanded response file 'C:\Users\Admin\AppData\Local\Temp\MSBuildTemp\tmp608de703ecb5435eb9bd55e9ae9e01dd.rsp': /c /ID:\Applications\VCPKG\vcpkg\installed\x64-windows\include /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /FoDebug\ /FdDebug\vc143.pdb /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+[E 04:10:05 19352] Checking whether C compilation already happened.
+[E 04:10:05 19352] Checking for tag c-compilation-happened
+[E 04:10:05 19352] Checking CODEQL_TRACER_DB_ID 47C2266A000009AC_0000000000000001
+[E 04:10:05 19352] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:05 19352] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:05 19352] Unlocking DB
+[E 04:10:05 19352] Unlocked DB
+[E 04:10:05 19352] Looks like C compilation didn't already happen.
+[E 04:10:05 19352] Checking whether C compilation has been attempted.
+[E 04:10:05 19352] Checking for tag c-compilation-attempted
+[E 04:10:05 19352] Checking CODEQL_TRACER_DB_ID 47C2266A000009AC_0000000000000001
+[E 04:10:05 19352] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:05 19352] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:05 19352] Unlocking DB
+[E 04:10:05 19352] Unlocked DB
+[E 04:10:05 19352] Marking C compilation as attempted.
+[E 04:10:05 19352] Setting tag c-compilation-attempted
+[E 04:10:05 19352] Starting from CODEQL_TRACER_DB_ID 47C2266A000009AC_0000000000000001
+[E 04:10:05 19352] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:05 19352] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:05 19352] Set tag for 47C2266A000009AC_0000000000000001
+[E 04:10:05 19352] Set tag for D5A79431000020B0_0000000000000001
+[E 04:10:05 19352] Set tag for 91647CDD00003168_0000000000000001
+[E 04:10:05 19352] Set tag for 960C129100001630_0000000000000001
+[E 04:10:05 19352] Set tag for 973A473300000D2C_0000000000000001
+[E 04:10:05 19352] Set tag for 76DF154C000066F0_0000000000000001
+[E 04:10:05 19352] Unlocking DB
+[E 04:10:05 19352] Unlocked DB
+[E 04:10:06 19352] Processed command line: D:\Applications\codeql\cpp\tools\win64\extractor.exe --trapfolder D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp --src_archive D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src --object_filename Debug\ --no_warnings_and_discretionary_errors --error_limit 1000 --disable_system_macros --variadic_macros --incognito --microsoft --c --microsoft_version 1943 --target win64 -D_MSC_FULL_VER=194334808 -D_MSC_BUILD=0 -D_M_AMD64=100 -D_M_X64=100 -D_WIN64 -D__MSVC_RUNTIME_CHECKS -D_DEBUG -D_MT -D_DLL -D_MBCS --default_calling_convention __cdecl --import_dir Debug -ID:\Applications\VCPKG\vcpkg\installed\x64-windows\include "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\atlmfc\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\cppwinrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um" -ID:\Applications\VCPKG\vcpkg\installed\x64-windows\include -- CMakeCCompilerId.c
+[E 04:10:06 19352] CODEQL_EXTRACTOR_CPP_TRAP_CACHING is not set
+[E 04:10:06 19352] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_WRITE is not set
+[E 04:10:06 19352] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_DIR is not set
+[E 04:10:06 19352] Initialising TRAP cache at path: \\?\D:\PracticeInCodeQL\libpng\build\CMakeFiles\4.2.1\CompilerIdC\79\be59\59f9633d9bb8b3506ac0d58c49ec
+[E 04:10:06 19352] Not using TRAP cache
+[E 04:10:06 19352] TRAP cache miss
+[E 04:10:06 19352] Starting compilation TRAP D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/compilations/40/9369174_0.trap.zst
+[E 04:10:06 19352] Archiving D:\PracticeInCodeQL\CodeQL\databases\libpng-c\src/D_/PracticeInCodeQL/libpng/build/CMakeFiles/4.2.1/CompilerIdC/CMakeCCompilerId.c
+[E 04:10:06 19352] Warning[extractor-c++]: In emit_platform_diagnostic: Failed to rename diagnostic file from 'D' to 'D': unknown error
+[E 04:10:06 19352] Creating trap tarball D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/tarballs/D_/PracticeInCodeQL/libpng/build/CMakeFiles/4.2.1/CompilerIdC/CMakeCCompilerId.c.d3f27889_0.trap.tar.zst
+[E 04:10:06 19352] Emitting trap files for CMakeCCompilerId.c
+[E 04:10:06 19352] Opening existencedb in \\?\D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working\existencedb\db
+[E 04:10:06 19352] Wrote 2 files to D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/tarballs/D_/PracticeInCodeQL/libpng/build/CMakeFiles/4.2.1/CompilerIdC/CMakeCCompilerId.c.d3f27889_0.trap.tar.zst
+[E 04:10:06 19352] Finished compilation TRAP D:\PracticeInCodeQL\CodeQL\databases\libpng-c\trap\cpp/compilations/40/9369174_0.trap.zst
+[E 04:10:06 19352] Marking C compilation as happened.
+[E 04:10:06 19352] Setting tag c-compilation-happened
+[E 04:10:06 19352] Starting from CODEQL_TRACER_DB_ID 47C2266A000009AC_0000000000000001
+[E 04:10:06 19352] Locking DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:06 19352] Locked DB D:\PracticeInCodeQL\CodeQL\databases\libpng-c\working/tags.db
+[E 04:10:06 19352] Set tag for 47C2266A000009AC_0000000000000001
+[E 04:10:06 19352] Set tag for D5A79431000020B0_0000000000000001
+[E 04:10:06 19352] Set tag for 91647CDD00003168_0000000000000001
+[E 04:10:06 19352] Set tag for 960C129100001630_0000000000000001
+[E 04:10:06 19352] Set tag for 973A473300000D2C_0000000000000001
+[E 04:10:06 19352] Set tag for 76DF154C000066F0_0000000000000001
+[E 04:10:06 19352] Unlocking DB
+[E 04:10:06 19352] Unlocked DB
+[E 04:10:06 19352] Extractor exited successfully

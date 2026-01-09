@@ -1,0 +1,20 @@
+[2026-01-06 11:14:27] This is codeql execute queries -J-Xmx1292M --verbosity=progress --logdir=D:\PracticeInCodeQL\CodeQL\databases\libpng-c\log --evaluator-log-level=5 --warnings=show --qlconfig-file=D:\PracticeInCodeQL\libpng\qlconfig.yml --dynamic-join-order-mode=none --no-rerun --output=D:\PracticeInCodeQL\CodeQL\databases\libpng-c\results -- D:\PracticeInCodeQL\CodeQL\databases\libpng-c\db-cpp C:\Users\Admin\.codeql\packages\codeql\c-queries
+[2026-01-06 11:14:27] Calling plumbing command: codeql resolve queries --qlconfig-file=D:\PracticeInCodeQL\libpng\qlconfig.yml --format=json -- C:\Users\Admin\.codeql\packages\codeql\c-queries
+[2026-01-06 11:14:28] Exception caught at top level: C:\Users\Admin\.codeql\packages\codeql\c-queries is not a .ql file, .qls file, a directory, or a query pack specification.
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.resolveQuerySpecifier(ResolveQueriesCommand.java:305)
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.executeJSON(ResolveQueriesCommand.java:211)
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.executeJSON(ResolveQueriesCommand.java:68)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSONWithExistingMessages(SimpleJsonSubcommand.java:121)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:444)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSON(SimpleJsonSubcommand.java:110)
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:61)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:170)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.executeSubcommand(ExecuteQueriesCommand.java:425)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$5(SubcommandCommon.java:892)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:444)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:890)
+                      com.semmle.cli2.picocli.SubcommandCommon.toplevelMain(SubcommandCommon.java:777)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:757)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:238)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:259)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:113)

@@ -1,0 +1,75 @@
+[2026-01-06 11:47:45] This is codeql execute queries -J-Xmx1292M --verbosity=progress --logdir=D:\PracticeInCodeQL\CodeQL\databases\libpng-c\log --evaluator-log-level=5 --warnings=show --search-path=D:\Applications\codeql\qlpacks --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --dynamic-join-order-mode=none -- D:\PracticeInCodeQL\CodeQL\databases\libpng-c\db-cpp path:D:\PracticeInCodeQL\my-queries\find_functions.ql
+[2026-01-06 11:47:46] Calling plumbing command: codeql resolve queries --search-path=D:\Applications\codeql\qlpacks --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --format=json -- path:D:\PracticeInCodeQL\my-queries\find_functions.ql
+[2026-01-06 11:47:46] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at D:\PracticeInCodeQL\my-queries\find_functions.ql) at D:\PracticeInCodeQL\my-queries.
+[2026-01-06 11:47:46] Plumbing command codeql resolve queries completed:
+                      [
+                        "D:\\PracticeInCodeQL\\my-queries\\find_functions.ql"
+                      ]
+[2026-01-06 11:47:46] Refusing fancy output: The terminal is not an xterm: 
+[2026-01-06 11:47:46] Creating executor with 1 threads.
+[2026-01-06 11:47:46] Calling plumbing command: codeql resolve extensions --search-path=D:\Applications\codeql\qlpacks --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --include-extension-row-locations path:D:\PracticeInCodeQL\my-queries\find_functions.ql
+[2026-01-06 11:47:46] Calling plumbing command: codeql resolve queries --search-path=D:\Applications\codeql\qlpacks --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --allow-library-packs --format startingpacks -- path:D:\PracticeInCodeQL\my-queries\find_functions.ql
+[2026-01-06 11:47:46] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at D:\PracticeInCodeQL\my-queries\find_functions.ql) at D:\PracticeInCodeQL\my-queries.
+[2026-01-06 11:47:46] Plumbing command codeql resolve queries completed:
+                      [
+                        "D:\\PracticeInCodeQL\\my-queries"
+                      ]
+[2026-01-06 11:47:46] Calling plumbing command: codeql resolve extensions-by-pack --search-path=D:\Applications\codeql\qlpacks --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --include-extension-row-locations -- D:\PracticeInCodeQL\my-queries
+[2026-01-06 11:47:46] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2026-01-06 11:47:46] [SPAMMY] resolve extensions-by-pack> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2026-01-06 11:47:46] [SPAMMY] resolve extensions-by-pack> [DECISION 1] <anonymous pack>: 0.0.0
+[2026-01-06 11:47:46] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2026-01-06 11:47:46] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2026-01-06 11:47:46] Calling plumbing command: codeql resolve library-path --search-path=D:\Applications\codeql\qlpacks --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --query=D:\PracticeInCodeQL\my-queries\find_functions.ql --format=json
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> Resolving query at normalized path D:\PracticeInCodeQL\my-queries\find_functions.ql.
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> Found no pack; trying after symlink resolution with D:\PracticeInCodeQL\my-queries\find_functions.ql.
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> Found enclosing pack 'my-queries' at D:\PracticeInCodeQL\my-queries.
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\Admin\.codeql\compile-cache.
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> Resolving library dependencies from D:\PracticeInCodeQL\my-queries\find_functions.ql.
+[2026-01-06 11:47:46] [SPAMMY] resolve library-path> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2026-01-06 11:47:46] [SPAMMY] resolve library-path> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2026-01-06 11:47:46] [SPAMMY] resolve library-path> [DECISION 1] <anonymous pack>: 0.0.0
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> QL pack dependencies for D:\PracticeInCodeQL\my-queries resolved OK.
+[2026-01-06 11:47:46] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2026-01-06 11:47:46] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "D:\\PracticeInCodeQL\\my-queries"
+                        ],
+                        "compilationCache" : [
+                          "C:\\Users\\Admin\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "my-queries\\find_functions.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in D:\\PracticeInCodeQL\\my-queries or an enclosing directory.",
+                        "qlPackName" : "my-queries"
+                      }
+[2026-01-06 11:47:46] [PROGRESS] execute queries> Compiling query plan for D:\PracticeInCodeQL\my-queries\find_functions.ql.
+[2026-01-06 11:47:46] [DETAILS] execute queries> Resolving imports for D:\PracticeInCodeQL\my-queries\find_functions.ql.
+[2026-01-06 11:47:46] Resolved file set for D:\PracticeInCodeQL\my-queries\find_functions.ql hashes to 3a56721454715c121d0de5f87988a3fd.
+[2026-01-06 11:47:46] [DETAILS] execute queries> Checking QL for D:\PracticeInCodeQL\my-queries\find_functions.ql.
+[2026-01-06 11:47:46] Stale frontend caches are invalidated based on import graph reachability.
+[2026-01-06 11:47:47] ExternalModuleBindingPass ...
+[2026-01-06 11:47:47] ExternalModuleBindingPass time: 00:00.001
+[2026-01-06 11:47:47] CollectInstantiationsPass ...
+[2026-01-06 11:47:47] CollectInstantiationsPass time: 00:00.004
+[2026-01-06 11:47:47] Ql checks ...
+[2026-01-06 11:47:47] Ql checks time: 00:00.058
+[2026-01-06 11:47:47] [ERROR] execute queries> ERROR: could not resolve module cpp (D:\PracticeInCodeQL\my-queries\find_functions.ql:6,8-11)
+[2026-01-06 11:47:47] [ERROR] execute queries> ERROR: could not resolve type Function (D:\PracticeInCodeQL\my-queries\find_functions.ql:8,6-14)
+[2026-01-06 11:47:47] Sequence stamp origin is -5961780252934766659
+[2026-01-06 11:47:47] Pausing evaluation to close the cache at sequence stamp o+0
+[2026-01-06 11:47:47] The disk cache is freshly trimmed; leave it be.
+[2026-01-06 11:47:47] Unpausing evaluation
+[2026-01-06 11:47:47] Exiting with code 2

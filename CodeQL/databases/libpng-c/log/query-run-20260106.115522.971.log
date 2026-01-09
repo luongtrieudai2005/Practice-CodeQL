@@ -1,0 +1,11 @@
+[2026-01-06 11:55:22] This is codeql query run --database=D:\PracticeInCodeQL\CodeQL\databases\libpng-c find_functions.ql
+[2026-01-06 11:55:22] Log file was started late.
+[2026-01-06 11:55:22] Calling plumbing command: codeql resolve ram --dataset=D:\PracticeInCodeQL\CodeQL\databases\libpng-c\db-cpp --format=json
+[2026-01-06 11:55:23] [PROGRESS] resolve ram> Stringpool size measured as 11567546
+[2026-01-06 11:55:23] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1292M"
+                      ]
+[2026-01-06 11:55:23] Spawning plumbing command: execute queries -J-Xmx1292M --verbosity=progress --logdir=D:\PracticeInCodeQL\CodeQL\databases\libpng-c\log --evaluator-log-level=5 --warnings=show --qlconfig-file=D:\PracticeInCodeQL\my-queries\qlconfig.yml --dynamic-join-order-mode=none -- D:\PracticeInCodeQL\CodeQL\databases\libpng-c\db-cpp path:D:\PracticeInCodeQL\my-queries\find_functions.ql
+[2026-01-06 11:56:42] Plumbing command codeql execute queries terminated with status 0.
+[2026-01-06 11:56:42] Exiting with code 0
