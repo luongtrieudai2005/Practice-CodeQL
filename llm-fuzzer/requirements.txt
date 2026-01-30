@@ -1,0 +1,4 @@
+openai>=1.0.0
+pyyaml
+tree-sitter>=0.20.0
+tree-sitter-c>=0.20.0
